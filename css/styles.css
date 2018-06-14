@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.heading-text {
+  font-size: 4em;
+}
+
+section {
+  padding: 5em 0;
+}
+
+.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+}
+
+/* Masthead Styles */
+header.masthead {
+  position: relative;
+  background-image: url("/images/bg-header.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 6em 0;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding: 11em 0;
+  }
+}
+
+header.masthead .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #212529;
+  opacity: 0.7;
+}
+
+/* Services Section */
+section.services {
+  position: relative;
+  background-image: url(/images/bg-services.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.services .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #212529;
+  opacity: 0.7;
+}
+
+.services .service-icon {
+  height: 7em;
+}
+
+.services .service-icon i {
+  font-size: 5em;
+}
+
+.services .service-icon i:hover {
+  font-size: 6em;
+}
+
+/* Portfolio Section */
+section.portfolio {
+  padding-bottom: 0;
+}
+
+.portfolio-header {
+  margin-bottom: 5em;
+}
+
+.portfolio .portfolio-image {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+.portfolio .portfolio-text {
+  padding: 10em;
+}
+
+/* Contact Section */
+.contact .contact-icon {
+  height: 7em;
+}
+
+.contact .contact-icon i {
+  font-size: 5em;
+}
+
+.contact .contact-icon i:hover {
+  font-size: 6em;
+}
