@@ -46,7 +46,7 @@ section {
 /* Masthead Styles */
 header.masthead {
   position: relative;
-  background-image: url("/images/bg-header.jpg");
+  background-image: url("images/bg-header.jpg");
   background-size: cover;
   background-position: center center;
   padding: 6em 0;
@@ -71,7 +71,7 @@ header.masthead .overlay {
 /* Services Section */
 section.services {
   position: relative;
-  background-image: url(/images/bg-services.jpg);
+  background-image: url("images/bg-services.jpg");
   background-size: cover;
   background-position: center bottom;
 }
