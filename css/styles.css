@@ -110,10 +110,23 @@ section.portfolio {
 .portfolio .portfolio-image {
   min-height: 30rem;
   background-size: cover;
+  background-position: center center;
+}
+
+.portfolio .item-1 {
+  background-image: url("../images/bg-showcase-1.jpg");
+}
+
+.portfolio .item-2 {
+  background-image: url("../images/bg-showcase-2.jpg");
+}
+
+.portfolio .item-3 {
+  background-image: url("../images/bg-showcase-3.jpg");
 }
 
 .portfolio .portfolio-text {
-  padding: 10em;
+  padding: 8em;
 }
 
 /* Contact Section */
